@@ -1,0 +1,38 @@
+<?php
+    include('commonCMS.php');
+	
+    //Navigation
+    myHeader("HOT HATS CONTENT MANAGEMENT SYSTEM");
+    myNavigation("Homepage", "Add products", "View all products", "Edit products", "Delete products", "View and manage orders");
+?>
+
+<h2> Enter the details of the new product: </h2>
+
+<!--Form for entering product details which will be processed in the .php file -->
+<form action="addProductsCMS.php" method="post">
+  <p>Name:</p>
+  <input type="text" id="name" name="name" required> <br>
+  
+  <p>Size:</p>
+  <input type="text" id="size" name="size" required><br>
+
+  <p>Description:</p>
+  <input type="text" id="description" name="description" required><br>
+
+  <p>Price:</p>
+  <input type="text" id="price" name="price" required><br>
+
+  <p>Quantity:</p>
+  <input type="text" id="quantity" name="quantity" required><br> <br>
+
+  <input type="submit" value="ADD YOUR PRODUCT">
+</form> 
+
+
+
+<?php
+    myFooter();
+?>
+
+
+

@@ -1,0 +1,20 @@
+<?php
+    include('commonCMS.php');
+	
+    //Navigation
+    myHeader("HOT HATS CONTENT MANAGEMENT SYSTEM");
+    myNavigation("Homepage", "Add products", "View all products", "Edit products", "Delete products", "View and manage orders");
+?>
+
+<form action="deleteProductsCMS.php" method="post">
+  <p>Enter ID of product that you want to be deleted:</p>
+  <input type="text" id="product_id" name="product_id"><input type="submit" value="DELETE YOUR PRODUCT">
+</form> 
+
+
+<?php
+    myFooter();
+?>
+
+
+

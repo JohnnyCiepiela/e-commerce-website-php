@@ -1,0 +1,89 @@
+/* I've used the online color picker to pick more eye-friendly colors and apply them to the pages.*/     
+
+/* Styles for the whole body of the pages.*/
+body {
+	background-color: #8ab595;text-align:center;
+	}
+	
+/* Styles for the page name. */
+#page_name {
+	background-color: #3a854e; padding: 0px; font-size:6em ; font-family: Bebas Neue;
+}
+
+/* Styles for paragraphs.*/
+p {
+	background-color: #3a854e; font-size: 2em; font-family:Bebas Neue;
+	}
+	
+/* General styles for all div containers.*/	
+div {
+	background-color: #3a854e;
+	}
+	
+/* Set of styles for the navigation bar with the use of "class". I've tried to remove the underline with the "text-decoration" attribute but alas it did not work.*/
+.navigation {
+	font-family:Bebas Neue; font-size: 3em; word-spacing: 5px; text-decoration:none; padding-top: 0px; padding-bottom: 0px; 
+	border-style: solid; border-color: #3a854e; border-width: 0px; font-style: #cd0909
+	}
+
+/* General set of styles for images.*/
+/*
+img {
+	width: 300px; height:400px; padding-top: 10px;
+	}
+	
+*/
+
+#hats {width:100px;
+height:100px;}
+	
+/* Styles for the search bar */
+.topnav {
+  overflow: hidden;
+  background-color:#79c98d;
+  height: 50px;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+} 
+
+#table1 {
+	text-align:center;
+}
+
+
+/* Registration page styles. */
+#button {width:200px; height:100px;}
+
+#register {font-family:Bebas Neue; font-size:2em}
+
+#login {font-family:Bebas Neue;font-size:2em}
+ 
+ 
+ 
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+/* I've aimed to maintain similar style while editing all of the blocks so that they don't look out of place. 
+   Hence the same font is used throughout most of the project.*/ 
